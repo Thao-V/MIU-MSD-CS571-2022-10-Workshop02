@@ -25,6 +25,28 @@ The buttons is to toggle (show/hide) the components above, only one component wi
 * Remember to respect the code honor submission policy. All written code must be original. Presenting any code as one’s own work when it came from another source is plagiarism.
 
 ## Question 2
-Create a backend app to persist the application data at the server
+Assume that we have used MongoDB with 'schools' collection as follows.
+**
+`
+{
+  _id: ObjectId(),
+  shool_name: String,
+  address: String,
+  teachers:[
+    {
+      _id: ObjectId(),
+      name: String,
+      gratudated_from: String,
+      phone: Number,
+      email: String
+    }
+  ],
+  students:[
+      { name: String, email: String, id: String}
+  ]
+}
+`
+**
+Create a backend app to persist the application data at the server for this React App.
 
 ## Please submit your code before 10:00 PM CST today (Saturday, 10/08/2022). Have a great weekend.
