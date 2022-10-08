@@ -24,7 +24,7 @@ The buttons is to toggle (show/hide) the components above, only one component wi
 * Use a Reducer function to manage your application state and write up all necessary actions.
 * Remember to respect the code honor submission policy. All written code must be original. Presenting any code as one’s own work when it came from another source is plagiarism.
 
-## Question 2 (Optional)
+## Question 2
 Create a backend app to persist the application data at the server
 
 ## Please submit your code before 10:00 PM CST today (Saturday, 10/08/2022). Have a great weekend.
